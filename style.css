@@ -100,11 +100,11 @@ html{
 }
 .aboutbox img{
     border-radius: 30px;
-    height: 300px;
+    height: 350px;
     width: 250px;
 }
 #about{
-    margin-top: 80px;
+    margin-top: 130px;
 }
 .abbox{
     text-align: center;
@@ -114,4 +114,19 @@ html{
     padding: 20px;
     margin: 10px;
     width: 300px;
+}
+.aboutcontainer{
+    display: flex;
+    margin-left: 120px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#aboutbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.aboutbox .abbox:nth-child(3){
+    margin-top: -40px;
+    border: none;
+    width: auto; /* Change 'max-content' to 'auto' */
+    overflow: hidden; /* Or use 'overflow: auto;' if you want to add scrollbars */
 }

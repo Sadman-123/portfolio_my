@@ -21,10 +21,15 @@
     display: flex;
     justify-content: flex-end;
 }
+
 .navbar .links a{
     text-decoration: none;
     color: black;
     padding: 10px;
+}
+.links .nav_link a:hover{
+    color: #42A5F5;
+    transition: 0.5s ease-in-out 0s;
 }
 .homepage{
     margin-top: 100px;
@@ -78,4 +83,15 @@
 }
 .homepage h5,h4{
     color: #8A8888;
+}
+.aboutemetext{
+    text-align: center;
+}
+.aboutemetext h5{
+    color: #8A8888;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.aboutemetext h1{
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }

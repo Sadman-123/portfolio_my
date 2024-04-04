@@ -5,6 +5,28 @@ html{
 *{
     padding-top: 10px;
 }
+/*change scrollbar color and thumb*/
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+
+    background: #000000; 
+    /*change thumb size */
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #222222; 
+  }
 .navbar{
     display: flex; 
     background-color: transparent;

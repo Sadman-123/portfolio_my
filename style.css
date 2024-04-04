@@ -2,15 +2,16 @@
     padding-top: 10px;
 }
 .navbar{
-    display: flex; /* To align logo to the left and links to the right */ /* Vertically center the items */
+    display: flex; 
     background-color: transparent;
     padding: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: bold;
     justify-content: space-around;
 }
-.navbar .logo  {
-    width: 70px;
-    height: 70px;
+.navbar .icon{
+    font-size: 25px;
 }
 .navbar .logo{
     margin-left: 100px;
@@ -24,4 +25,57 @@
     text-decoration: none;
     color: black;
     padding: 10px;
+}
+.homepage{
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.homepage #t1{
+    margin: 8px;
+}
+.homepage .mypic img{
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+}
+.myself{
+    width: max-content;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.myself .mybuttons{
+    display: flex;
+}
+.mybuttons button{
+    margin:2px;
+}
+.myself button{
+    background: transparent;
+    border-radius: 20px;
+    padding: 10px;
+}
+.myself button#ct{
+    background: black;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+.mylinks{
+    display: flex;
+    justify-content: center;
+}
+.mylinks #lol{
+    margin: 2px;
+}
+.mylinks #lol:nth-child(2){
+    color: blue;
+}
+.homepage h5, h2, h4 {
+    line-height: 0.8; /* Reduce line height slightly */
+}
+.homepage h5,h4{
+    color: #8A8888;
 }

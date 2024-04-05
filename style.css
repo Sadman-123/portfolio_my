@@ -168,7 +168,7 @@ html{
   .expbox {
     background-color: #fff; /* White background for boxes */
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
-    padding: 20px; /* Padding for content */
+    padding: 10px; /* Padding for content */
     border-radius: 15px; /* Rounded corners */
     border-style: solid;
     border-color: #8A8888;
@@ -185,7 +185,7 @@ html{
   .frnt {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Two equal columns for skills */
-    grid-gap: 10px; /* Spacing between skill sections */
+    grid-gap: 1px; /* Spacing between skill sections */
   }
 
   .t1 {
@@ -388,4 +388,8 @@ html{
 }
 #contact{
   margin-top: 30px;
+}
+.contact-info a{
+  text-decoration: none;
+  color: #8A8888;
 }
